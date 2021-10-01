@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,UAEE,QAAS,CACT,SAGF,CAIA,gBANE,WAAY,CACZ,UAQF","file":"main.3384a2b3.chunk.css","sourcesContent":["html,\nbody {\n  margin: 0;\n  padding: 0;\n  height: 100%;\n  width: 100%;\n}\n\n\n/* CSS的id選取器要用'#'作為開頭 */\n#root{  \n  height: 100%;\n  width: 100%;\n}"]}
