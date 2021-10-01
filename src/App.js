@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import styled from '@emotion/styled';
-import { ThemeProvider } from '@emotion/react'; //不要照著書上的匯入
+import { ThemeProvider } from '@emotion/react';
 import { useState,useEffect,useCallback,useMemo } from 'react';
 import { getMoment } from './utils/helpers';
 import WeatherCard from './views/WeatherCard';
