@@ -14,7 +14,7 @@ import { ReactComponent as NightFog } from './../images/night-fog.svg';
 import { ReactComponent as NightPartiallyClearWithRain } from './../images/night-partially-clear-with-rain.svg';
 import { ReactComponent as NightSnowing } from './../images/night-snowing.svg';
 import { ReactComponent as NightThunderstorm } from './../images/night-thunderstorm.svg';
-import { useState,useMemo } from 'react';
+import { useMemo } from 'react';
 
 const IconContainer=styled.div`
     flex-basis: 30%;

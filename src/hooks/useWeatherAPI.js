@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 const fetchCurrentWeather=({ authorizationKey, locationName })=>{
     return fetch(`https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=${authorizationKey}&locationName=${locationName}`)
@@ -35,7 +34,6 @@ const fetchCurrentWeather=({ authorizationKey, locationName })=>{
           return needElements;
         },{}
       );
-      console.log("WeatherCode=",weatherElements.Wx.parameterValue)
       return{
         description:weatherElements.Wx.parameterName,
         weatherCode:weatherElements.Wx.parameterValue,

@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState, useEffect, useCallback, useMemo } from 'react';
 import styled from '@emotion/styled';
 import dayjs from 'dayjs';
 import { ReactComponent as AirFlowIcon } from './../images/airFlow.svg';
